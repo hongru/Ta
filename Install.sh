@@ -71,10 +71,18 @@ if ta_has 'nvm'; then
         # do dangerous stuff
         git clone http://gitlab.alibaba-inc.com/node/nvm.git
         source nvm/nvm.sh
+        echo 'source '`pwd`'/nvm/nvm.sh' >> $HOME'/.bashrc'
+        echo 'source '`pwd`'/nvm/nvm.sh' >> $HOME'/.bash_profile'
+        echo 'source '`pwd`'/nvm/nvm.sh' >> $HOME'/.profile'
+        echo 'source '`pwd`'/nvm/nvm.sh' >> $HOME'/.zshrc'
     fi
 else
     git clone http://gitlab.alibaba-inc.com/node/nvm.git
     source nvm/nvm.sh
+    echo 'source '`pwd`'/nvm/nvm.sh' >> $HOME'/.bashrc'
+    echo 'source '`pwd`'/nvm/nvm.sh' >> $HOME'/.bash_profile'
+    echo 'source '`pwd`'/nvm/nvm.sh' >> $HOME'/.profile'
+    echo 'source '`pwd`'/nvm/nvm.sh' >> $HOME'/.zshrc'
 fi
 
 # nodejs by nvm
