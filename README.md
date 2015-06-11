@@ -38,5 +38,7 @@
 ## Usage (@Macos)
 
 ```
-$ curl
+$ curl -O https://raw.githubusercontent.com/hongru/Ta/master/Install.sh && chmod 777 ./Install.sh && ./Install.sh
 ```
+
+![img](http://gw.alicdn.com/tfscom/TB11BMCIXXXXXb3XXXXCMqh1VXX-1624-1032.png_960x960.jpg)
